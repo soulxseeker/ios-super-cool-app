@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imgRed: UIImageView!
+    @IBOutlet weak var imgBlue: UIImageView!
+    @IBOutlet weak var btnBlue: UIButton!
+    
+    @IBOutlet weak var btnRed: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +26,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func BtnRedClick(sender: AnyObject) {
+        imgRed.hidden = false
+        
+    }
+    
+    @IBAction func btnBlueClick(sender: AnyObject) {
+        imgBlue.hidden = false
+    }
 }
 

@@ -286,6 +286,7 @@
 				DB128CC81CA97E550086FEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
